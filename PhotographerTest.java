@@ -14,7 +14,14 @@ public void before(){
 @Test
 public void canAddCamera(){
   photographer.addCamera(camera);
-  assertEquals(1, photographer.lenghtCameras());
+  assertEquals(1, photographer.lengthCameras());
+}
+
+@Test
+public void canRemoveCamera(){
+  photographer.addCamera(camera);
+  photographer.removeCamera(camera);
+  assertEquals(0, photographer.lengthCameras());
 }
 
 }

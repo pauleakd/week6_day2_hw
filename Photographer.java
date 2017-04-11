@@ -11,7 +11,11 @@ public class Photographer{
     this.cameras.add(camera);
   }
 
-  public int lenghtCameras(){
+  public void removeCamera(Camera camera){
+    this.cameras.remove(camera);
+  }
+
+  public int lengthCameras(){
     return this.cameras.size();
   }
 }
