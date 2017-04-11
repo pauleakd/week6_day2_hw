@@ -1,0 +1,3 @@
+class AnalogCamera implements Printable{
+  
+}

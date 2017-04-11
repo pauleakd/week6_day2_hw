@@ -1,21 +1,21 @@
 import java.util.*;
 
 public class Photographer{
-  public ArrayList<Camera> cameras;
+  public ArrayList<Printable> printables;
 
   public Photographer(){
-    this.cameras = new ArrayList<Camera>();
+    this.printables = new ArrayList<Printable>();
   }
 
-  public void addCamera(Camera camera){
-    this.cameras.add(camera);
+  public void addCamera(Printable camera){
+    this.printables.add(camera);
   }
 
-  public void removeCamera(Camera camera){
-    this.cameras.remove(camera);
+  public void removeCamera(Printable camera){
+    this.printables.remove(camera);
   }
 
-  public int lengthCameras(){
-    return this.cameras.size();
+  public int lengthPrintables(){
+    return this.printables.size();
   }
 }

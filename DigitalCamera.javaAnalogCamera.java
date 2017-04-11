@@ -1,0 +1,3 @@
+class DigitalCamera implements Printable{
+  
+}
