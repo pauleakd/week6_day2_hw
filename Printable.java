@@ -1,3 +1,3 @@
 public interface Printable {
-  // public String PrintDetails();
+  public String printDetails();
 }

@@ -18,4 +18,12 @@ public class Photographer{
   public int lengthPrintables(){
     return this.printables.size();
   }
+
+  public String printAllDetails(){
+    String details = "";
+    for(Printable printable : printables){
+      details += " " + printable.printDetails();
+    }
+    return details;
+  }
 }
